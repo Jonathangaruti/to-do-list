@@ -3,13 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Lista de Afazeres</title>
 </head>
 <body>
-  <div>
-    <input placeholder="O que tenho que fazer...">
-    <button>Adicionar</button>
+  <div class="container">
+    <input class="input-task" placeholder="O que tenho que fazer...">
+    <button class="button-add">Adicionar</button>
+    <ul class="list-task">
+      <li class="task">
+        <img src="img/checked.png" alt="adiconar-tarefa">
+        <p>Primeira tarefa</p>
+        <img src="img/trash.png" alt="remover-tarefa">
+      </li>
+      <li class="task">
+        <img src="img/checked.png" alt="adiconar-tarefa">
+        <p>Primeira tarefa</p>
+        <img src="img/trash.png" alt="remover-tarefa">
+      </li>
+    </ul>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
