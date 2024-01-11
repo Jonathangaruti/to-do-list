@@ -73,3 +73,8 @@ img {
 .task:hover img{
   opacity: 1;
 }
+
+.feito {
+  background-color: #9be49c;
+  text-decoration: line-through;
+}
