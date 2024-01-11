@@ -8,11 +8,13 @@
 }
 
 body{
-  background: #f5f1f1
+  background-image: url(img/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%
 }
 
 .container {
-  background-color: #d1d1d1;
+  background-color: #D7BDBE;
   width: 500px;
   border-radius: 5px;
   padding: 20px;
@@ -24,19 +26,21 @@ body{
   border-radius: 10px;
   width: 300px;
   height: 40px;
+  padding: 10px;
 }
 
 .button-add {
   border: none;
   border-radius: 5px;
   height: 40px;
-  background-color: #003329;
+  background-color: #C3908C;
   color: #ffffff;
   font-size: 17px;
   padding: 0 15px;
   float: right;
   cursor: pointer;
   font-weight: 700;
+  
 }
 
 .button-add:hover {
@@ -75,6 +79,6 @@ img {
 }
 
 .feito {
-  background-color: #9be49c;
+  background-color: #3DB39E;
   text-decoration: line-through;
 }
