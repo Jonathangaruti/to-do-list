@@ -24,7 +24,7 @@ function mostrarTarefas(){
     <li class="task ${i.concluida && 'feito'}">
       <img src="img/checked.png" alt="adiconar-tarefa" onclick="concluirTarefa(${index})">
       <p>${i.tarefa}</p>
-      <img src="img/trash.png" alt="remover-tarefa" onclick="deletarItem(${i.index})">
+      <img src="img/trash.png" alt="remover-tarefa" onclick="deletarItem(${index})">
     </li>
     
     `
