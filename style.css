@@ -14,7 +14,7 @@ body{
 }
 
 .container {
-  background-color: #D7BDBE;
+  background-color: #dbd2d6;
   width: 500px;
   border-radius: 5px;
   padding: 20px;
@@ -33,7 +33,7 @@ body{
   border: none;
   border-radius: 5px;
   height: 40px;
-  background-color: #C3908C;
+  background-color: #df918c;
   color: #ffffff;
   font-size: 17px;
   padding: 0 15px;
